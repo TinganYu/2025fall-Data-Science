@@ -18,7 +18,7 @@
 
 ## 執行程式
 
-請按照順序執行下列程式
+請將所有檔案放置在同一個資料夾中，並按照順序執行下列程式
 
 ### 資料處理
 請執行`Data_handeling.ipynb`，獲得`steam_games_featured.csv`
