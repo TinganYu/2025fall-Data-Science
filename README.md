@@ -21,7 +21,7 @@
 請將所有檔案放置在同一個資料夾中，並按照順序執行下列程式
 
 ### 資料處理
-請執行`Data_handeling.ipynb`，獲得`steam_games_featured.csv`
+請執行`Data_handeling.ipynb`，獲得`steam_games_featured.csv`，存於`data`資料夾中
 
 ### EDA
 請執行`EDA.ipynb`可獲得EDA結果
@@ -29,16 +29,15 @@
 ### 模型訓練
 
 #### Baseline
-請執行`Model_baseline.ipynb`
+請執行`Model_baseline.ipynb`，可於執行結果看到各指標分數
 #### Decision Tree Regresion
-請執行`Model_DT.ipynb`
-
+請執行`Model_DT.ipynb`，可於執行結果看到各指標分數及特徵重要性圖表
 #### Random Forest Regression
-請執行`Model_RF`可獲得EDA結果
+請執行`Model_RF.ipynb`，可於執行結果看到各指標分數及特徵重要性圖表
 
 
 ### 重現結果
 
-1. 請使用Hugging Face steam-games-dataset，會在執行`Data_handeling.ipynb`進行抓取
+1. 請使用Hugging Face steam-games-dataset，會在執行`Data_handeling.ipynb`進行抓取，存於`data/steam_games_cleaned.csv`中
 2. 依環境安裝建立環境
 3. 依執行程式照順序正確執行相關程式，即可獲得相關圖表及結果
