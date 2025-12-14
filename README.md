@@ -89,8 +89,8 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 於 EDA 階段，本專題最後有透過 3D 視覺化旋轉圖（GIF）呈現多個變數與遊戲熱門程度（owner_log）之關係，藉此輔助判斷變數間是否存在明顯趨勢或現象。
 
 本專題共製作兩組 3D 視覺化圖表，分別呈現：
-* 價格、評論數與擁有者數之間的關係
-* 價格、評論正面程度與擁有者數之間的關係
+* 價格、評論數與擁有者數之間的關係 (./rotating_3d_owner_color_turbo.gif)
+* 價格、評論正面程度與擁有者數之間的關係 (./rotating_3d_owner_price_balance.gif)
 
 上述 3D 圖表於執行 `EDA.ipynb` 時自動生成，並同步提供對應 GIF 檔案，方便快速檢視分析結果。
 
