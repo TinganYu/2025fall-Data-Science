@@ -94,5 +94,5 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 上述 3D 圖表於執行 `EDA.ipynb` 時自動生成，並同步提供對應 GIF 檔案，方便快速檢視分析結果。
 
-![3D EDA Visualization 1](./rotating_3d_owner_color_turbo.gif)
-![3D EDA Visualization 2](./rotating_3d_owner_price_balance.gif)
+![3D EDA Visualization 1](rotating_3d_owner_color_turbo.gif)
+![3D EDA Visualization 2](rotating_3d_owner_price_balance.gif)
